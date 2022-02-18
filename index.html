@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <title>Sign Up</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <div class="logo">
+        <h1>Vinyl Haven</h1>
+      </div>
+      <div class="sidebar-footer">
+        <p>Photo by 
+          <a href="https://unsplash.com/@kurbanova">Elza Kurbanova</a> on 
+          <a href="https://unsplash.com/photos/f8MLY_HKwqQ">Unsplash</a>
+        </p>
+      </div>
+    </div>
+    <div class="signup-content">
+      <div class="content-header">
+        <p>
+          Some may say that vinyls are irrelevant. If you're here though you know
+          just how valuable they are, as both a novelty but also to the ears. Don't wait.
+          Sign up <span class="accentuate">now</span> to view our collection.
+        </p>
+        <p>The haven <span class="accentuate">awaits</span>.</p>
+      </div>
+      <div class="signup-form">
+        <form>
+          <div class="form-inputs">
+            <p>Let's do this!</p>
+            <div class="form-row">
+              <div class="row-entry">
+                <label for="first-name">First Name</label>
+                <input id="first-name" type="text" name="first_name">
+              </div>
+              <div class="row-entry">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" class="focus" type="text" name="last">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="row-entry">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email">
+              </div>
+              <div class="row-entry">
+                <label for="phone-number">Phone Number</label>
+                <input id="phone-number" type="tel" name="phone_number">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="row-entry">
+                <label for="password">Password</label>
+                <input id="password" class="error" type="password" name="password">
+                <p class="error-msg">* Passwords do not match</p>
+              </div>
+              <div class="row-entry">
+                <label for="confirmation">Confirm Password</label>
+                <input id="confirmation" class="error" type="password" name="confirmation">
+              </div>
+            </div>
+          </div>
+          <div class="form-submission">
+            <input id="submit" type="submit" value="Create Account"></input>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
